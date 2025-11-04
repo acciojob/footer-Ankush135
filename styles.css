@@ -25,20 +25,24 @@ footer .logo_name {
     font-weight: 500;
 }
 
-/* Social media icons */
-footer .media-icons a {
-    font-size: 16px;
-    color: #fff;
-    height: 40px;
-    width: 40px;
-    display: inline-block;
-    text-align: center;
-    line-height: 40px;
-    border-radius: 50%;
-    margin-right: 10px;
-    transition: 0.3s;
+.media-icons {
+  display: block; 
 }
 
+
+footer .media-icons a {
+  font-size: 16px;
+  color: #fff;
+  height: 40px;
+  width: 40px;
+  display: inline-flex;       
+  justify-content: center;    
+  align-items: center;        
+  text-align: center;
+  border-radius: 50%;
+  margin-right: 10px;
+  transition: 0.3s;
+}
 .media-icons a:nth-child(1) { background: #3b5998; } /* Facebook */
 .media-icons a:nth-child(2) { background: #55acee; } /* Twitter */
 .media-icons a:nth-child(3) { background: #e4405f; } /* Instagram */
@@ -49,20 +53,20 @@ footer .media-icons a:hover {
     opacity: 0.8;
 }
 
-/* Link sections */
+
 .link-boxes {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    /* margin-top: 40px; */
-    /* border-top: 1px solid #333; */
+ 
+
     padding-top: 30px;
 }
 
 .link-boxes .box {
     list-style: none;
 	padding-left: 0px;
-  /* width: calc(25% - 10px); */
+  
 }
 
 .link-boxes .box .link_name {
@@ -88,7 +92,7 @@ footer .media-icons a:hover {
     color: #fff;
 }
 
-/* Bottom section */
+
 .bottom-details {
     background: #2b2d35;
     padding: 10px 40px;
