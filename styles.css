@@ -1,1 +1,113 @@
 /* your code here */
+footer {
+    background: #000;
+    color: #ccc;
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+}
+
+footer .content {
+    max-width: px;
+    margin: auto;
+    padding: 25px 40px 20px;
+}
+
+footer .top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+footer .logo_name {
+    font-size: 35px;
+    color: #fff;
+    font-weight: 500;
+}
+
+/* Social media icons */
+footer .media-icons a {
+    font-size: 16px;
+    color: #fff;
+    height: 40px;
+    width: 40px;
+    display: inline-block;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+    transition: 0.3s;
+}
+
+.media-icons a:nth-child(1) { background: #3b5998; } /* Facebook */
+.media-icons a:nth-child(2) { background: #55acee; } /* Twitter */
+.media-icons a:nth-child(3) { background: #e4405f; } /* Instagram */
+.media-icons a:nth-child(4) { background: #0077b5; } /* LinkedIn */
+.media-icons a:nth-child(5) { background: #cd201f; } /* YouTube */
+
+footer .media-icons a:hover {
+    opacity: 0.8;
+}
+
+/* Link sections */
+.link-boxes {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    /* margin-top: 40px; */
+    /* border-top: 1px solid #333; */
+    padding-top: 30px;
+}
+
+.link-boxes .box {
+    list-style: none;
+	padding-left: 0px;
+  /* width: calc(25% - 10px); */
+}
+
+.link-boxes .box .link_name {
+    color: #fff;
+    font-weight: 500;
+    /* margin-bottom: px; */
+    display: inline-block;
+    border-bottom: 2px solid white;
+    padding-bottom: 5px;
+	font-size: 15px;
+}
+
+.link-boxes .box li a {
+    color: #bbb;
+    text-decoration: none;
+    display: block;
+    margin: 8px 0;
+    transition: 0.3s;
+	font-size: 12px;
+}
+
+.link-boxes .box li a:hover {
+    color: #fff;
+}
+
+/* Bottom section */
+.bottom-details {
+    background: #2b2d35;
+    padding: 10px 40px;
+    color: #aaa;
+    font-size: 14px;
+}
+
+.bottom-details .bottom_text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.bottom-details a {
+    color: #aaa;
+    text-decoration: none;
+}
+
+.bottom-details a:hover {
+    color: #fff;
+}
