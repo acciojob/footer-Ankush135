@@ -25,20 +25,24 @@ footer .logo_name {
     font-weight: 500;
 }
 
+footer .media-icons {
+  display: flex; 
+}
 
 footer .media-icons a {
   font-size: 16px;
   color: #fff;
   height: 40px;
   width: 40px;
-  display: inline-flex;       
-  justify-content: center;    
-  align-items: center;        
+  display: flex;
+  justify-content: center;
+  align-items: center;
   text-align: center;
   border-radius: 50%;
   margin-right: 10px;
   transition: 0.3s;
 }
+
 .media-icons a:nth-child(1) { background: #3b5998; } /* Facebook */
 .media-icons a:nth-child(2) { background: #55acee; } /* Twitter */
 .media-icons a:nth-child(3) { background: #e4405f; } /* Instagram */
